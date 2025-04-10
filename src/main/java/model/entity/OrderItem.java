@@ -4,9 +4,10 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import model.entity.Product;
 
 import java.math.BigDecimal;
+
+//Explication
 
 @Entity
 @Table(name = "order_items")
